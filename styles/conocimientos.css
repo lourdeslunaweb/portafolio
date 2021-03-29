@@ -1,0 +1,72 @@
+.conocimientos{
+    background-color:#f7e6d0cc ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.conoctitulo{
+    margin-top: 50px;
+}
+
+.conoctitulo h2{
+    font-size: 2.5em;
+}
+
+.conoctexto{
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.conoctexto p{
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.containericonos{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+
+.icontexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.containericonos :hover{
+    color: white;
+    background-color: #F7C27B ;
+}
+
+.iconsize{
+    width: 180px;
+    height: 180px;
+}
+
+@media screen and (max-width: 400px){
+    .iconsize{
+        width: 50px;
+        height: 50px;
+    }
+
+    .icontexto p{
+        display:none
+    }
+
+    .conoctexto{
+        width: 100%;
+    }
+
+}

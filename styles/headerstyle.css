@@ -1,0 +1,63 @@
+
+/*VER EL DOBLE FONDO QUE SE HACE CON EL ACTIVE EN EL ITEM CONTACTO*/
+/*Color usado para todo: #F7C27B;*/
+
+header{
+    background: linear-gradient(360deg, #f7c27b, #f2aa4a);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: -2px 4px 10px 0px rgba(112,88,50,0.75);
+    position: fixed;
+    z-index: 99;
+}
+
+ul{
+    display: flex;
+    margin-right: 50px;
+}
+
+li{
+    margin-left: 40px;
+    list-style: none;
+    border-radius: 1em;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li :hover{
+color: white;
+}
+
+.lastli{
+    background-color: white;
+}
+
+.lastli :hover{
+    color: #df8005;
+}
+
+li :active{
+    border-radius: 1em;
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: -2px 4px 10px 0px black;
+}
+
+@media screen and (max-width: 400px){
+    header{
+        display: none;
+    }
+}
+
+
+

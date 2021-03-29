@@ -1,0 +1,50 @@
+/*Colores #f7c27b, #f2aa4a*/
+.cita{
+    background-color: #f7c27b ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 80px;
+
+}
+
+.sizecomillas{
+    width: 75px;
+    height: 75px;
+}
+
+.citatexto{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.citatexto p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.citaautor h2{
+    font-weight: 900;
+}
+
+@media screen and (max-width: 400px){
+    .cita{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 40px;
+    }
+
+    .sizecomillas{
+        width: 30px;
+        height: 30px;
+    }
+
+    .citatexto p{
+        font-size: 1.2em;
+    }
+
+}
