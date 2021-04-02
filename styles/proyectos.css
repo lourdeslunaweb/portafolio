@@ -1,5 +1,6 @@
-.conocimientos{
-    background-color:#f7e6d0cc ;
+/*Colores #f7c27b, #f2aa4a*/
+
+.proyectos{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,28 +8,28 @@
     padding-bottom: 50px;
 }
 
-.conoctitulo{
+.proytitulo{
     margin-top: 50px;
 }
 
-.conoctitulo h2{
+.proytitulo h2{
     font-size: 2.5em;
 }
 
-.conoctexto{
+.proytexto{
     margin-top: 40px;
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.conoctexto p{
+.proytexto p{
     text-align: center;
     font-size: 1.2em;
     
 }
 
-.containericonos{
+.containerproyectos{
     width: 60%;
     display: flex;
     flex-wrap: wrap;
@@ -38,35 +39,38 @@
 
 }
 
-.icontexto{
+.proycaja{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-.containericonos :hover{
-    color: white;
-    background-color: #F7C27B ;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
     border-radius: 1em;
 }
 
-.iconsize{
-    width: 180px;
-    height: 180px;
+.proycaja a{
+    text-decoration: none;  
+    color: black;
+    text-align: center;
 }
 
+
+.containerproyectos :hover{
+    color: #f2aa4a;
+    border-color: #f2aa4a;
+}
+
+.proysize{
+    width: 250px;
+    height: 250px;
+}
+
+
+
 @media screen and (max-width: 400px){
-    .iconsize{
-        width: 50px;
-        height: 50px;
-    }
 
-    .icontexto p{
-        display:none
-    }
-
-    .conoctexto{
+    .proytexto{
         width: 100%;
     }
 

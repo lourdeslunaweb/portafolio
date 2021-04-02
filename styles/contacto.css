@@ -1,0 +1,154 @@
+/*Colores #f7c27b, #f2aa4a*/
+
+.contacto{
+    background-color: #f7e6d0cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h2{
+    font-size: 2.5em;
+}
+
+.contacto p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.cajacontacto{
+    background-color: white;
+    width: 60%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.contactame{
+    width: 50%;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactametexto{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.escribime{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactoicono a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 0px;
+}
+
+.contactoicono p{
+    padding-left: 15px;
+}
+
+i{
+    font-size: 1.8em;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.contactoicono :hover{
+    color: #f2aa4a ;
+}
+
+.contactoicono :hover i{
+    color: white;
+    background-color: #f2aa4a ;
+}
+
+.escribime{
+    display: flex;
+    flex-direction: column;
+}
+
+.escribime h2{
+    padding-bottom: 10px;
+}
+
+.nombreyapellido{
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+}
+
+.apellido{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label{
+    font-size: 1em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.campo input{
+    background-color:#f7e6d0cc;
+    border-radius: 1.5em;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.campo textarea{
+    background-color:#f7e6d0cc;
+    border-radius: 1.5em;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #f2aa4a;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    width: 25%;
+    margin-top: 20px;
+
+}
