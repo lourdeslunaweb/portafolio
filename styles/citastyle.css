@@ -33,18 +33,44 @@
 
 @media screen and (max-width: 400px){
     .cita{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         gap: 40px;
     }
 
     .sizecomillas{
-        width: 30px;
-        height: 30px;
+        width: 10px;
+        height: 10px;
     }
 
     .citatexto p{
-        font-size: 1.2em;
+        font-size: 0.9em;
+    }
+
+    .citaautor h2{
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    .cita{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 40px;
+    }
+    .sizecomillas{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .citatexto p{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .citaautor h2{
+        font-size: 1.1em;
     }
 
 }

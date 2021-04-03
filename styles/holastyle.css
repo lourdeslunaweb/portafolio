@@ -27,9 +27,6 @@
     font-size: 1.2em;
 }
 
-.holadibujo{
-    width: 50%;
-}
 
 .loquehago p{
     width:35%;
@@ -47,10 +44,12 @@
 }
 
 .holadibujo{
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .holadibujo img{
     width: 650px;
     height: 650px;
@@ -79,6 +78,39 @@
 
     .loquehago p{
         width:75%;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    .hola{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .holasoy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .holasoy p{
+        text-align: center;
+    }
+
+    .loquehago p{
+        width:100%;
+    }
+
+    .holadibujo{
+        width: 100%;
+    }
+
+    .holadibujo img{
+        width: 250px;
+        height: 250px;
     }
 
 }
