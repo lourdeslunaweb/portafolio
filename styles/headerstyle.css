@@ -1,5 +1,3 @@
-
-/*VER EL DOBLE FONDO QUE SE HACE CON EL ACTIVE EN EL ITEM CONTACTO*/
 /*Color usado para todo: #F7C27B;*/
 
 header{
@@ -14,43 +12,49 @@ header{
     z-index: 99;
 }
 
-ul{
+.ul-header{
     display: flex;
     margin-right: 50px;
 }
 
-li{
+.li-header{
     margin-left: 40px;
     list-style: none;
     border-radius: 1em;
     padding: 15px;
     padding-top: 5px;
-    padding-bottom: 5px;   
+    padding-bottom: 5px;  
 }
 
-li a{
+.li-header a{
     text-decoration: none;
     color: black;
 }
 
-li :hover{
+.li-header :hover{
 color: white;
 }
 
-.lastli{
-    background-color: white;
-}
-
-.lastli :hover{
-    color: #df8005;
-}
-
-li :active{
+.li-header :active{
     border-radius: 1em;
     padding: 7px;
     padding-top: 5px;
     padding-bottom: 5px;
     box-shadow: -2px 4px 10px 0px black;
+}
+
+.li-header:last-child{
+    background-color: white;
+}
+
+.li-header:last-child :hover{
+    color: black;
+    opacity: 0.6;
+}
+
+.li-header:last-child :active{
+    padding: 0;
+    box-shadow: none;
 }
 
 @media screen and (max-width: 400px){

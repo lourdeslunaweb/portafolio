@@ -11,9 +11,32 @@ footer{
     padding-top: 70px;
 }
 
+.ul-footer{
+    display: flex;
+    margin-right: 50px;
+}
+
+.li-footer{
+    margin-left: 40px;
+    list-style: none;
+    border-radius: 1em;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+}
+
+
 .li-footer a{
     font-size: 0.9em;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.li-footer :active{
+    box-shadow: 1px 0px 63px 15px rgba(252,252,252,0.93);
+    border-radius: 1em;
+    padding: 5px;
 }
 
 .contacto-footer{

@@ -65,6 +65,7 @@
 
     .holasoy{
         width: 100%;
+        padding-left: 0;
     }
 
     .holadibujo{
@@ -94,6 +95,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-left: 0;
     }
 
     .holasoy p{
