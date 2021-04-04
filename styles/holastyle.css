@@ -116,3 +116,16 @@
     }
 
 }
+
+@media screen and (max-width: 700px){
+    .holadibujo img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .loquehago p{
+        width:80%;
+        margin-bottom: 30px;
+    }
+}
+
