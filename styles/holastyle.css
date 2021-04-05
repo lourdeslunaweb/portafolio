@@ -87,7 +87,7 @@
     .hola{
         display: flex;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     .holasoy{
@@ -118,6 +118,10 @@
 }
 
 @media screen and (max-width: 900px){
+    .hola{
+        padding-top: 30px;
+    }
+
     .holadibujo img{
         width: 300px;
         height: 300px;
