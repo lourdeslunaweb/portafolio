@@ -50,13 +50,22 @@ footer{
 .icono-footer i{
     color: #f2aa4a;
     background-color: white;
-    border-radius: 1em;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.icono-footer a{
+    text-decoration: none;
+}
+
 
 .icono-footer :hover i{
     color: white;
     background-color:#f2aa4a;
-    border-radius: 1em;
     border-color: white;
     border-style: solid;
     border-width: 1px;

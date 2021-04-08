@@ -285,4 +285,28 @@ button{
 
 }
 
+@media screen and (max-width: 1010px){
 
+    .cajacontacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactame{
+        width: 100%;
+    }
+
+    .escribime{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1252px){
+
+    .cajacontacto{
+        width: 90%;
+    }
+
+}

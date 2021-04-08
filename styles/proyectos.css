@@ -76,3 +76,25 @@
     }
 
 }
+
+@media screen and (max-width: 580px){
+.proysize{
+    width: 200px;
+    height: 200px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 890px){
+
+    .proytexto{
+        width: 95%;
+    }
+    .containerproyectos{
+    width: 100%;
+}
+
+}
