@@ -44,3 +44,16 @@ a{
 .subContainer-2-img{
     width: 500px;
 }
+
+@media screen and (max-width: 400px){
+    .h2{
+        font-size: 60px;
+    }
+    
+    .h3{
+        font-size: 35px;
+    }
+    .subContainer-2-img{
+        width: 300px;
+    }
+}
