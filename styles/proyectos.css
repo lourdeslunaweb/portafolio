@@ -10,10 +10,14 @@
 
 .proytitulo{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .proytitulo h2{
     font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 .proytexto{
@@ -85,9 +89,6 @@
 }
 
 }
-
-
-
 
 @media screen and (max-width: 890px){
 
